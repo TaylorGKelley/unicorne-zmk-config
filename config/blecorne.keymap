@@ -122,10 +122,10 @@
 
         right_num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS       &mt LS(N7) N7              &mt LS(N8) N8              &mt LS(N9) N9              &kp MINUS            &kp ASTRK
-&trans  &trans  &trans  &trans  &trans  &trans    &kp ENTER      &mt LS(NUMBER_4) NUMBER_4  &mt LS(N5) N5              &mt LS(NUMBER_6) NUMBER_6  &kp SLASH            &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PERIOD     &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2  &mt LS(NUMBER_3) NUMBER_3  &mt LS(N0) NUMBER_0  &kp EQUAL
-                        &trans  &trans  &trans    &mt LS(N0) N0  &kp LEFT_SHIFT             &kp SPACE
+&trans  &trans  &trans  &trans  &trans  &trans    &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt LS(N7) N7              &mt LS(N8) N8              &mt LS(N9) N9              &kp MINUS  &kp ASTRK
+&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_BRACKET RIGHT_BRACKET          &mt LS(NUMBER_4) NUMBER_4  &mt LS(N5) N5              &mt LS(NUMBER_6) NUMBER_6  &kp SLASH  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PERIOD                              &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2  &mt LS(NUMBER_3) NUMBER_3  &kp PLUS   &kp EQUAL
+                        &trans  &trans  &trans    &trans                                  &kp LEFT_SHIFT             &mt LS(NUMBER_0) NUMBER_0
             >;
 
             label = "Num";
